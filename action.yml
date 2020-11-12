@@ -32,7 +32,7 @@ inputs:
     default: 'INFO'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://epsyhealth/actions-publish-unit-test-result:latest'
 branding:
   icon: 'check-circle'
   color: 'green'
